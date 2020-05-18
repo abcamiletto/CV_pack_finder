@@ -1,8 +1,8 @@
 import cv2 as cv
 import numpy as np
 font = cv.FONT_HERSHEY_SIMPLEX
-back = cv.imread('../images/background.jpg')
-object = cv.imread('../images/objects.jpg')
+back = cv.imread('background.jpg')
+object = cv.imread('objects.jpg')
 #kernel = cv.getStructuringElement(cv.MORPH_ELLIPSE, (3,3))
 # fgbg = cv.createBackgroundSubtractorMOG2()
 # fgbg = cv.bgsegm.BackgroundSubtractorGMG()

@@ -22,8 +22,8 @@ def add_with_text(img1, img2, text, direction):
 
 font = cv.FONT_HERSHEY_SIMPLEX
 
-back = cv.imread('../images/background.jpg')
-object = cv.imread('../images/objects.jpg')
+back = cv.imread('background.jpg')
+object = cv.imread('objects.jpg')
 back_gray = cv.cvtColor(back, cv.COLOR_BGR2GRAY)
 object_gray = cv.cvtColor(object, cv.COLOR_BGR2GRAY)
 

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="573e5682-298d-478b-8d4a-f790332ff6b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gp1_utilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GP-oneCV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GP-oneCV.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backsub_filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/parameter_debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backsub_filters_video_try.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_packs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framing.py" beforeDir="false" afterPath="$PROJECT_DIR$/gp1_filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/background_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background_green.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/background_green.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/objects.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/objects.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/objects_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/objects_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/objects_green.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/objects_green.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/output.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/output.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_tests/try_backsub_MOG.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/try_backsub_MOG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old_tests/try_backsub_bitwise.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/try_backsub_bitwise.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result_27_04.avi" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bU0oMDeEVPqFgSfTsDaEeNQLHP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OpenCV-projects" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/old_tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.find_packs">
+    <configuration name="2_getting_started_with_videos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OpenCV-projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../OpenCV-projects" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../OpenCV-projects/2_getting_started_with_videos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="find_packs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GP-oneCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/find_packs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gp1_filters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GP-oneCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gp1_filters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gp1_utilities" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GP-oneCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gp1_utilities.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="parameter_debug" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GP-oneCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/parameter_debug.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.find_packs" />
+        <item itemvalue="Python.parameter_debug" />
+        <item itemvalue="Python.gp1_utilities" />
+        <item itemvalue="Python.gp1_filters" />
+        <item itemvalue="Python.2_getting_started_with_videos" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="573e5682-298d-478b-8d4a-f790332ff6b3" name="Default Changelist" comment="" />
+      <created>1588671538288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588671538288</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589568456601">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589568456601" />
+    <state width="1897" height="354" key="GridCell.Tab.0.bottom" timestamp="1589753990575">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="354" key="GridCell.Tab.0.bottom/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
+    <state width="1830" height="287" key="GridCell.Tab.0.bottom/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1589643148981" />
+    <state width="1897" height="354" key="GridCell.Tab.0.center" timestamp="1589753990575">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="354" key="GridCell.Tab.0.center/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
+    <state width="1830" height="287" key="GridCell.Tab.0.center/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1589643148981" />
+    <state width="1897" height="354" key="GridCell.Tab.0.left" timestamp="1589753990575">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="354" key="GridCell.Tab.0.left/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
+    <state width="1830" height="287" key="GridCell.Tab.0.left/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1589643148981" />
+    <state width="1897" height="354" key="GridCell.Tab.0.right" timestamp="1589753990575">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="354" key="GridCell.Tab.0.right/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
+    <state width="1830" height="287" key="GridCell.Tab.0.right/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1589643148981" />
+    <state width="1897" height="354" key="GridCell.Tab.1.bottom" timestamp="1589753990575">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="354" key="GridCell.Tab.1.bottom/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
+    <state width="1897" height="354" key="GridCell.Tab.1.center" timestamp="1589753990575">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="354" key="GridCell.Tab.1.center/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
+    <state width="1897" height="354" key="GridCell.Tab.1.left" timestamp="1589753990575">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="354" key="GridCell.Tab.1.left/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
+    <state width="1897" height="354" key="GridCell.Tab.1.right" timestamp="1589753990575">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="354" key="GridCell.Tab.1.right/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
+    <state x="2494" y="157" width="762" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589618714464">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2494" y="157" width="762" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589618714464" />
+    <state x="2543" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1589717420928">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="237" width="672" height="678" key="search.everywhere.popup/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589717420928" />
+  </component>
+</project>

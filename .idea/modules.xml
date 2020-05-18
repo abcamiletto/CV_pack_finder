@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/GP-oneCV.iml" filepath="$PROJECT_DIR$/.idea/GP-oneCV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../OpenCV-projects/.idea/OpenCV-projects.iml" filepath="$PROJECT_DIR$/../OpenCV-projects/.idea/OpenCV-projects.iml" />
     </modules>
   </component>
 </project>
