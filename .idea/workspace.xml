@@ -20,22 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="573e5682-298d-478b-8d4a-f790332ff6b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gp1_utilities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GP-oneCV.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GP-oneCV.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backsub_filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/parameter_debug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backsub_filters_video_try.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_packs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framing.py" beforeDir="false" afterPath="$PROJECT_DIR$/gp1_filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/background_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background_green.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/background_green.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/objects.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/objects.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/objects_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/objects_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/objects_green.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/objects_green.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/output.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/output.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_tests/try_backsub_MOG.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/try_backsub_MOG.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old_tests/try_backsub_bitwise.py" beforeDir="false" afterPath="$PROJECT_DIR$/old_tests/try_backsub_bitwise.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result_27_04.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_packs.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_packs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gp1_filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/gp1_filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameter_debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/parameter_debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters/default.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parameters/default.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters/temp_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parameters/temp_result.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,8 +160,8 @@
       <list>
         <item itemvalue="Python.find_packs" />
         <item itemvalue="Python.parameter_debug" />
-        <item itemvalue="Python.gp1_utilities" />
         <item itemvalue="Python.gp1_filters" />
+        <item itemvalue="Python.gp1_utilities" />
         <item itemvalue="Python.2_getting_started_with_videos" />
       </list>
     </recent_temporary>
@@ -206,42 +196,42 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589568456601" />
-    <state width="1897" height="354" key="GridCell.Tab.0.bottom" timestamp="1589753990575">
+    <state width="1897" height="287" key="GridCell.Tab.0.bottom" timestamp="1589975107169">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="354" key="GridCell.Tab.0.bottom/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
+    <state width="1897" height="287" key="GridCell.Tab.0.bottom/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107169" />
     <state width="1830" height="287" key="GridCell.Tab.0.bottom/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1589643148981" />
-    <state width="1897" height="354" key="GridCell.Tab.0.center" timestamp="1589753990575">
+    <state width="1897" height="287" key="GridCell.Tab.0.center" timestamp="1589975107169">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="354" key="GridCell.Tab.0.center/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
+    <state width="1897" height="287" key="GridCell.Tab.0.center/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107169" />
     <state width="1830" height="287" key="GridCell.Tab.0.center/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1589643148981" />
-    <state width="1897" height="354" key="GridCell.Tab.0.left" timestamp="1589753990575">
+    <state width="1897" height="287" key="GridCell.Tab.0.left" timestamp="1589975107169">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="354" key="GridCell.Tab.0.left/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
+    <state width="1897" height="287" key="GridCell.Tab.0.left/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107169" />
     <state width="1830" height="287" key="GridCell.Tab.0.left/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1589643148981" />
-    <state width="1897" height="354" key="GridCell.Tab.0.right" timestamp="1589753990575">
+    <state width="1897" height="287" key="GridCell.Tab.0.right" timestamp="1589975107169">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="354" key="GridCell.Tab.0.right/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
+    <state width="1897" height="287" key="GridCell.Tab.0.right/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107169" />
     <state width="1830" height="287" key="GridCell.Tab.0.right/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1589643148981" />
-    <state width="1897" height="354" key="GridCell.Tab.1.bottom" timestamp="1589753990575">
+    <state width="1897" height="354" key="GridCell.Tab.1.bottom" timestamp="1589975107166">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="354" key="GridCell.Tab.1.bottom/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
-    <state width="1897" height="354" key="GridCell.Tab.1.center" timestamp="1589753990575">
+    <state width="1897" height="354" key="GridCell.Tab.1.bottom/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107166" />
+    <state width="1897" height="354" key="GridCell.Tab.1.center" timestamp="1589975107166">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="354" key="GridCell.Tab.1.center/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
-    <state width="1897" height="354" key="GridCell.Tab.1.left" timestamp="1589753990575">
+    <state width="1897" height="354" key="GridCell.Tab.1.center/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107166" />
+    <state width="1897" height="354" key="GridCell.Tab.1.left" timestamp="1589975107166">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="354" key="GridCell.Tab.1.left/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
-    <state width="1897" height="354" key="GridCell.Tab.1.right" timestamp="1589753990575">
+    <state width="1897" height="354" key="GridCell.Tab.1.left/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107166" />
+    <state width="1897" height="354" key="GridCell.Tab.1.right" timestamp="1589975107166">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="354" key="GridCell.Tab.1.right/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589753990575" />
+    <state width="1897" height="354" key="GridCell.Tab.1.right/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107166" />
     <state x="2494" y="157" width="762" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589618714464">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -250,5 +240,16 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2543" y="237" width="672" height="678" key="search.everywhere.popup/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589717420928" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/parameter_debug.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -29,25 +29,25 @@ def get_parameters():
             input_from_file = file.readline().rstrip(' ')
         input_list = [int(i) for i in input_from_file.split(" ")]
         filtering_parameters = input_list[:19]
-        canny_parameters = input_list[19:22]
+        canny_parameters = input_list[19:23]
         resizing_factor = input_list[-1]
     elif input2 == 2:
-        with open('parameters/default.txt', 'r') as file:
+        with open('parameters/temp_result.txt', 'r') as file:
             input_from_file = file.readline().rstrip(' ')
         input_list = [int(i) for i in input_from_file.split(" ")]
         filtering_parameters = input_list[:19]
-        canny_parameters = input_list[19:22]
+        canny_parameters = input_list[19:23]
         resizing_factor = input_list[-1]
-    else:
-        print('Value is not ok, using DEFAULTS')
-        time.sleep(1.5)
-        filtering_parameters = [0, 0, 55, 255, 255, 255, 1, 5, 1, 5, 1, 5, 1, 2, 1, 2, 0, 1, 50]
-        canny_parameters = [15, 80, 0]
-        resizing_factor = 50
 
 
     return filtering_parameters, canny_parameters, resizing_factor
 
+def do_u_want_preview():
+    print('''\nDo you want to see the image results or let it run in the background? Press the corresponding key
+        1- Preview
+        2- Background''')
+    input2 = int(input())
+    return input2
 
 
 if __name__ == "__main__":
@@ -59,26 +59,29 @@ if __name__ == "__main__":
     # out = cv.VideoWriter('output.avi', fourcc, 20.0, (1920,1080))
 
     back = gp.resize(back, resizing_factor)
+    bool_preview = do_u_want_preview()
 
     if (cap.isOpened() == False):
         print("Error opening Video")
+
     while True:
         ret, object = cap.read()
-        object = gp.resize(object, resizing_factor)
         if ret == True:
+            object = gp.resize(object, resizing_factor)
             mask, res = gp.filtering(back,object,filtering_parameters)
             canny = gp.canny(res, canny_parameters)
-            contour = gp.draw_contour(object, canny)
-            cont2, center_list = gp.draw_outer_contours(object,canny)
+            cont2, center_list = gp.draw_outer_contours(object,canny, canny_parameters[-1])
 
-            imgs = [back, object, res, mask, canny, contour, cont2]
-            titles = ['back', 'object', "res", 'mask', 'Canny', 'contour', 'cont2']
+            if bool_preview == 1:
+                contour = gp.draw_contour(object, canny)
+                imgs = [back, object, res, mask, canny, contour, cont2]
+                titles = ['Background', 'Packs', "Subtraction", 'Mask', 'Canny', 'Contours', 'Boxed Contours']
 
-            canvas = gp.show_images(imgs, titles)
-            # out.write(cont2)
-            cv.namedWindow("video", cv.WINDOW_NORMAL)
-            cv.imshow("video", canvas)
-            cv.resizeWindow('video', 1800, 1000)
+                canvas = gp.show_images(imgs, titles)
+                # out.write(cont2)
+                cv.namedWindow("video", cv.WINDOW_NORMAL)
+                cv.imshow("video", canvas)
+                cv.resizeWindow('video', 1800, 1000)
 
             gp_out.send_results(center_list)
 

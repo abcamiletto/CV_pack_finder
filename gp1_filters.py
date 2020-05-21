@@ -47,7 +47,7 @@ def filtering(back, object, parameters):
 def canny(original, parameters):
     if len(original) > 2:
         original = cv.cvtColor(original, cv.COLOR_BGR2GRAY)
-    low, high, iteration = parameters
+    low, high, iteration, _ = parameters
 
     canny = cv.Canny(original, low, high)
     canny = cv.dilate(canny, None, iterations=iteration)
@@ -65,14 +65,16 @@ def resize(img, percentage):
 
 #contour functions
 def draw_contour(img_to_draw, edged):
+    height, width, _ = img_to_draw.shape
+    scaling_factor = width / 1600
     img_to_draw_copy = copy.deepcopy(img_to_draw)
     contour, hierarchy = cv.findContours(edged, cv.RETR_TREE, cv.CHAIN_APPROX_SIMPLE)
-    contour = cv.drawContours(img_to_draw_copy, contour, -1, (0, 255, 0), 3)
+    contour = cv.drawContours(img_to_draw_copy, contour, -1, (0, 255, 0), round(3 * scaling_factor))
     return contour
-def draw_outer_contours(image, edged):
+def draw_outer_contours(image, edged, minArea):
 
     height, width, _ = image.shape
-    scaling_factor = width / 3000.1
+    scaling_factor = width / 1680
 
     # find contours in the edge map
     cnts = cv.findContours(edged.copy(), cv.RETR_EXTERNAL,
@@ -89,7 +91,7 @@ def draw_outer_contours(image, edged):
         for (i, c) in enumerate(cnts):
             single_rect_vert = []
             # if the contour is not sufficiently large, ignore it
-            if cv.contourArea(c) < 500:
+            if cv.contourArea(c) < minArea * scaling_factor:
                 continue
             # compute the rotated bounding box of the contour, then draw the contours
             box = cv.minAreaRect(c)
@@ -111,6 +113,7 @@ def draw_outer_contours(image, edged):
             obj_vert.append(single_rect_vert)
     center_list = obj_center_calculation(obj_vert)
     return output, center_list
+
 def obj_center_calculation(obj_vert_list):
     center_list = []
     for rect in obj_vert_list:
