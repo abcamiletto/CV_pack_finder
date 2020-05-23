@@ -1,7 +1,8 @@
 import cv2 as cv
-import gp1_filters as gp
-import time
-import gp1_utilities as gp_out
+from python_modules import gp1_filters as gp
+from python_modules import gp1_utilities as gp_out
+
+
 
 def example_or_camera():
     print('''Do you wanna use the camera? Press the corresponding key
@@ -70,7 +71,7 @@ if __name__ == "__main__":
             object = gp.resize(object, resizing_factor)
             mask, res = gp.filtering(back,object,filtering_parameters)
             canny = gp.canny(res, canny_parameters)
-            cont2, center_list = gp.draw_outer_contours(object,canny, canny_parameters[-1])
+            cont2, pack_center_list = gp.draw_outer_contours(object,canny, canny_parameters[-1])
 
             if bool_preview == 1:
                 contour = gp.draw_contour(object, canny)
@@ -83,7 +84,7 @@ if __name__ == "__main__":
                 cv.imshow("video", canvas)
                 cv.resizeWindow('video', 1800, 1000)
 
-            gp_out.send_results(center_list)
+            # gp_out.send_results(center_list) to send results via UDP
 
             k = cv.waitKey(30) & 0xff
             if k == 27:

@@ -20,12 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="573e5682-298d-478b-8d4a-f790332ff6b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/python_modules/gp1_filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_modules/gp1_pistons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_modules/gp1_utilities.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/find_packs.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_packs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gp1_filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/gp1_filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parameter_debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/parameter_debug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parameters/default.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parameters/default.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parameters/temp_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/parameters/temp_result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gp1_filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gp1_utilities.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +37,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bU0oMDeEVPqFgSfTsDaEeNQLHP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OpenCV-projects" />
@@ -50,28 +55,7 @@
       <recent name="$PROJECT_DIR$/old_tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.find_packs">
-    <configuration name="2_getting_started_with_videos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="OpenCV-projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../OpenCV-projects" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../OpenCV-projects/2_getting_started_with_videos.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.gp1_pistons">
     <configuration name="find_packs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="GP-oneCV" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,6 +90,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gp1_filters.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gp1_pistons" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="GP-oneCV" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_modules/gp1_pistons.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gp1_pistons" />
         <item itemvalue="Python.find_packs" />
         <item itemvalue="Python.parameter_debug" />
         <item itemvalue="Python.gp1_filters" />
         <item itemvalue="Python.gp1_utilities" />
-        <item itemvalue="Python.2_getting_started_with_videos" />
       </list>
     </recent_temporary>
   </component>
@@ -191,47 +196,50 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl" timestamp="1589568456601">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="297" width="424" height="484" key="FileChooserDialogImpl/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589568456601" />
-    <state width="1897" height="287" key="GridCell.Tab.0.bottom" timestamp="1589975107169">
+    <state width="1897" height="354" key="GridCell.Tab.0.bottom" timestamp="1590265165573">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="287" key="GridCell.Tab.0.bottom/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107169" />
-    <state width="1830" height="287" key="GridCell.Tab.0.bottom/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1589643148981" />
-    <state width="1897" height="287" key="GridCell.Tab.0.center" timestamp="1589975107169">
+    <state width="1897" height="354" key="GridCell.Tab.0.bottom/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590265165573" />
+    <state width="1830" height="287" key="GridCell.Tab.0.bottom/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1590132320167" />
+    <state width="1897" height="354" key="GridCell.Tab.0.center" timestamp="1590265165573">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="287" key="GridCell.Tab.0.center/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107169" />
-    <state width="1830" height="287" key="GridCell.Tab.0.center/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1589643148981" />
-    <state width="1897" height="287" key="GridCell.Tab.0.left" timestamp="1589975107169">
+    <state width="1897" height="354" key="GridCell.Tab.0.center/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590265165573" />
+    <state width="1830" height="287" key="GridCell.Tab.0.center/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1590132320167" />
+    <state width="1897" height="354" key="GridCell.Tab.0.left" timestamp="1590265165573">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="287" key="GridCell.Tab.0.left/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107169" />
-    <state width="1830" height="287" key="GridCell.Tab.0.left/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1589643148981" />
-    <state width="1897" height="287" key="GridCell.Tab.0.right" timestamp="1589975107169">
+    <state width="1897" height="354" key="GridCell.Tab.0.left/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590265165573" />
+    <state width="1830" height="287" key="GridCell.Tab.0.left/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1590132320166" />
+    <state width="1897" height="354" key="GridCell.Tab.0.right" timestamp="1590265165573">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="287" key="GridCell.Tab.0.right/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107169" />
-    <state width="1830" height="287" key="GridCell.Tab.0.right/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1589643148981" />
-    <state width="1897" height="354" key="GridCell.Tab.1.bottom" timestamp="1589975107166">
+    <state width="1897" height="354" key="GridCell.Tab.0.right/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590265165573" />
+    <state width="1830" height="287" key="GridCell.Tab.0.right/67.28.1853.1052/1920.0.1920.1080@67.28.1853.1052" timestamp="1590132320167" />
+    <state width="1897" height="354" key="GridCell.Tab.1.bottom" timestamp="1590265165573">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="354" key="GridCell.Tab.1.bottom/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107166" />
-    <state width="1897" height="354" key="GridCell.Tab.1.center" timestamp="1589975107166">
+    <state width="1897" height="354" key="GridCell.Tab.1.bottom/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590265165573" />
+    <state width="1897" height="354" key="GridCell.Tab.1.center" timestamp="1590265165573">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="354" key="GridCell.Tab.1.center/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107166" />
-    <state width="1897" height="354" key="GridCell.Tab.1.left" timestamp="1589975107166">
+    <state width="1897" height="354" key="GridCell.Tab.1.center/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590265165573" />
+    <state width="1897" height="354" key="GridCell.Tab.1.left" timestamp="1590265165573">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="354" key="GridCell.Tab.1.left/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107166" />
-    <state width="1897" height="354" key="GridCell.Tab.1.right" timestamp="1589975107166">
+    <state width="1897" height="354" key="GridCell.Tab.1.left/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590265165573" />
+    <state width="1897" height="354" key="GridCell.Tab.1.right" timestamp="1590265165573">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="354" key="GridCell.Tab.1.right/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589975107166" />
+    <state width="1897" height="354" key="GridCell.Tab.1.right/67.28.1853.1052/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590265165573" />
     <state x="2494" y="157" width="762" height="763" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589618714464">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
