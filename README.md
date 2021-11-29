@@ -1,4 +1,4 @@
-# GP-one_ComputerVision
+# Pack Finder Algorithm
 
 OpenCV algorithm in Python to recognize packs and estimate their position on the picture
 
